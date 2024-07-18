@@ -8,7 +8,13 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
   return (
     <div className="px-10 xs:px-4 xs:mt-24">
       <hr />
-      <div className="flex flex-col rounded-3xl mt-10 bg-cover bg-center bg-[url(/vecteezy_mockup-poster-frame-on-the-wall-of-living-room-luxurious_22874698.jpg)] relative w-full justify-between h-[600px] xs:h-auto xs:rounded-2xl xs:mt-5">
+      <div className="flex flex-col rounded-3xl mt-10 relative w-full justify-between h-[600px] xs:h-auto xs:rounded-2xl xs:mt-5">
+        <Image
+          src="/vecteezy_home-minimal-interior-design-living-room-with-beige-cozy_27955799.jpeg"
+          alt="image"
+          objectFit="cover"
+          layout="fill"
+        />
         <div className="rounded-2xl relative w-full h-[250px] bg-transparent xs:h-auto">
           <div className="flex justify-center flex-col items-center mt-10 xs:mt-5">
             <p className="text-7xl text-center text-white xs:text-3xl">
