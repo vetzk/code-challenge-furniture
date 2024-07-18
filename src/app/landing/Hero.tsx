@@ -10,7 +10,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
       <hr />
       <div className="flex flex-col rounded-3xl mt-10 relative w-full justify-between h-[600px] xs:h-auto xs:rounded-2xl xs:mt-5">
         <Image
-          src="/vecteezy_home-minimal-interior-design-living-room-with-beige-cozy_27955799.jpeg"
+          src="/vecteezy_home-minimal-interior-design-living-room-with-beige-cozy_27955799.webp"
           alt="image"
           objectFit="cover"
           layout="fill"
