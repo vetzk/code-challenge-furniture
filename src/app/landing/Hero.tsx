@@ -13,7 +13,6 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
           src="/vecteezy_home-minimal-interior-design-living-room-with-beige-cozy_27955799.jpeg"
           alt="image"
           objectFit="cover"
-          loading="lazy"
           layout="fill"
         />
         <div className="rounded-2xl relative w-full h-[250px] bg-transparent xs:h-auto">
