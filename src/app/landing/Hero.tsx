@@ -14,6 +14,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
           alt="image"
           objectFit="cover"
           layout="fill"
+          priority
         />
         <div className="rounded-2xl relative w-full h-[250px] bg-transparent xs:h-auto">
           <div className="flex justify-center flex-col items-center mt-10 xs:mt-5">
